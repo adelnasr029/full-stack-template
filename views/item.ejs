@@ -35,7 +35,7 @@
         <li>
             <span><%= item.name %> : <%= item.description %></span>
             <button onClick="editItem('<%= item._id %>', '<%= item.name %> ', '<%= item.description %>')">Edit</button>
-            <button onClick="deleteItem('<%= item._id %>')">Delete</button>
+            <button onClick="deleteItem('<%= item.id %>')">Delete</button>
         </li>
         <% }); %>
     </ul>
